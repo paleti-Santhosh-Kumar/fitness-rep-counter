@@ -1,0 +1,24 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# Next.js
+/.next/
+/out/
+/build/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and coverage
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+coverage/
+
+# TypeScript and tooling
+*.tsbuildinfo
+.DS_Store
